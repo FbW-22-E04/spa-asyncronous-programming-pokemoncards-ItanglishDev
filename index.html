@@ -8,19 +8,31 @@
     <title>Pokemon Cards</title>
   </head>
   <style>
-    label {
+    section {
       display: flex;
       justify-content: center;
       align-items: center;
     }
+    main {
+      background-color: rgb(131, 67, 3);
+    }
+    .round-border {
+      border-radius: 5%;
+    }
   </style>
+
   <body>
     <main>
       <section class="input-area">
         <label for="">
-          <input type="text" name="pokemon" placeholder="search Pokemon..." />
+          <input
+            class="round-border"
+            type="text"
+            name="pokemon"
+            placeholder="search Pokemon..."
+          />
         </label>
-        <button>SEARCH</button>
+        <button class="round-border">SEARCH</button>
       </section>
     </main>
   </body>
