@@ -8,15 +8,15 @@
   </head>
   <style>
     section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       padding-top: 10rem;
     }
     main {
       background-color: rgb(131, 67, 3);
       height: 100vh;
       height: 100vw;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
     }
     .round-border {
       border-radius: 8px;
@@ -44,7 +44,24 @@
         </label>
         <button class="round-border">SEARCH</button>
 
-        <div class="poke-card" id="card"></div>
+        <div class="poke-card" id="card">
+          <h3 class="card-title"></h3>
+          <img src="" alt="" />
+          <h4>stats</h4>
+          <section class="top-section stats-abilities">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </section>
+          <h4>abilities</h4>
+          <section class="bottom-section stats-abilities">
+            <p></p>
+            <p></p>
+          </section>
+        </div>
       </section>
     </main>
     <script src="./index.js"></script>
