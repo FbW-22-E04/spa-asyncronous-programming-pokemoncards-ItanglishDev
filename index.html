@@ -7,7 +7,7 @@
     <title>Pokemon Cards</title>
   </head>
   <style>
-    section {
+    .input-area {
       padding-top: 10rem;
     }
     main {
@@ -31,11 +31,28 @@
     }
 
     .poke-card {
+      /* display: flex; */
       background-color: rgb(240, 216, 94);
+      text-align: center;
+      height: 35rem;
+    }
+
+    h3 {
+      /* width: 80%; */
+      padding-top: 3rem;
+    }
+
+    p {
+      /* text-align: left; */
+    }
+
+    .top-section {
+      width: 80%;
     }
 
     img {
-      height: 30px;
+      height: 70px;
+      width: 70px;
       border-radius: 50%;
       border: 5px solid white;
     }
@@ -55,7 +72,7 @@
         <button class="round-border">SEARCH</button>
 
         <div class="poke-card" id="card">
-          <h3 class="card-title"></h3>
+          <h3 class="card-title">Name</h3>
           <img src="" alt="" />
           <h4>stats</h4>
           <section class="top-section stats-abilities">
@@ -74,8 +91,8 @@
           </section>
           <h4>abilities</h4>
           <section class="bottom-section stats-abilities">
-            <p class="top-ability"></p>
-            <p class="bottom-ability"></p>
+            <p class="top-ability">top</p>
+            <p class="bottom-ability">bottom</p>
           </section>
         </div>
       </section>
