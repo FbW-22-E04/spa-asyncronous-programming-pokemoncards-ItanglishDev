@@ -9,6 +9,8 @@
   <style>
     .input-area {
       padding-top: 10rem;
+      width: 50%;
+      text-align: center;
     }
     main {
       background-color: rgb(131, 67, 3);
@@ -34,16 +36,24 @@
       /* display: flex; */
       background-color: rgb(240, 216, 94);
       text-align: center;
-      height: 35rem;
+      height: 45rem;
+      border-radius: 8px;
+      width: 470px;
     }
 
-    h3 {
+    h1 {
       /* width: 80%; */
       padding-top: 3rem;
     }
 
+    h4 {
+      padding-top: 1rem;
+      font-size: 1.4rem;
+      /* border-bottom: 3px solid white; */
+    }
     p {
       /* text-align: left; */
+      font-size: large;
     }
 
     .top-section {
@@ -72,22 +82,21 @@
         <button class="round-border">SEARCH</button>
 
         <div class="poke-card" id="card">
-          <h3 class="card-title">Name</h3>
+          <h1 class="card-title">Name</h1>
           <img src="" alt="" />
           <h4>stats</h4>
           <section class="top-section stats-abilities">
-            <p>hp</p>
-            <span class="value"></span>
-            <p>attack</p>
-            <span class="value"></span>
-            <p>defense</p>
-            <span class="value"></span>
-            <p>special-attack</p>
-            <span class="value"></span>
-            <p>special-defense</p>
-            <span class="value"></span>
-            <p>speed</p>
-            <span class="value"></span>
+            <p class="hp">hp</p>
+            <p class="attack">attack</p>
+            <!-- <span class="value"></span> -->
+            <p class="defense">defense</p>
+            <!-- <span class="value"></span> -->
+            <p class="special-attack">special-attack</p>
+            <!-- <span class="value"></span> -->
+            <p class="special-defense">special-defense</p>
+            <!-- <span class="value"></span> -->
+            <p class="speed">speed</p>
+            <!-- <span class="value"></span> -->
           </section>
           <h4>abilities</h4>
           <section class="bottom-section stats-abilities">
