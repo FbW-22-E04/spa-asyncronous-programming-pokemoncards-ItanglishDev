@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./index.js"></script>
     <title>Pokemon Cards</title>
   </head>
   <style>
@@ -12,6 +11,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 10rem;
     }
     main {
       background-color: rgb(131, 67, 3);
@@ -19,12 +19,15 @@
       height: 100vw;
     }
     .round-border {
-      border-radius: 5%;
+      border-radius: 8px;
+      height: 2rem;
     }
     button {
       background-color: rgb(241, 184, 109);
       color: white;
       font-size: large;
+      margin-left: 1.5rem;
+      width: 9rem;
     }
   </style>
 
@@ -44,5 +47,6 @@
         <div class="poke-card" id="card"></div>
       </section>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
